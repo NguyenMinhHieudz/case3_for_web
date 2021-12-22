@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -106,15 +106,15 @@ h4 {
 }
 
 .icon-mail {
-  width: 22px;
-  height: 22px;
-  background-image: url(https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/icon-mail.svg);
+    width: 22px;
+    height: 22px;
+    background-image: url(https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/icon-mail.svg);
 }
 
 .icon-search-black {
-  width: 30px;
-  height: 30px;
-  background-image: url(https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/btn-search-black.png);
+    width: 30px;
+    height: 30px;
+    background-image: url(https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/btn-search-black.png);
 }
 
 .list-tool {
@@ -126,10 +126,6 @@ h4 {
 
 .list-tool ul {
   margin-top: 0;
-}
-
-.list-tool li {
-  display: inline-block;
 }
 
 .d-flex {
@@ -203,49 +199,42 @@ h4 {
 }
 
 .btn:hover, .button:hover {
-  transform: translateY(-1, 5px);
+    transform: translateY(-1,5px);
 }
 
 .btn-mail {
-  font-weight: bold;
-  height: 30px;
-  line-height: 30px;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-radius: 15px;
-  background: #fdbe21;
-  color: #000000;
-  font-size: 12px;
-  display: inline-block;
-  font-weight: 700;
-  text-align: left;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background: #fdbe21;
+    color: #000000;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: left;
 }
 
 .inner-header, .btn-search {
-  background: none;
-  padding: 0;
-  border: 0;
-  margin-left: 18px;
+    background: none;
+    padding: 0;
+    border: 0;
+    margin-left: 18px;
+    background-color: cyan;
 }
 
 .inner-header, .group-btn {
-  margin-left: auto;
-  margin-top: 15px;
-  margin: 15px 0px 0px 183.494px;
-  text-align: left;
-  line-height: 22.5px;
+    margin-left: auto;
+    margin-top: 15px;
+    margin: 15px 0px 0px 183.494px;
+    text-align: left;
+    line-height: 22.5px;
+    background-color: red;
 
-}
-
-.dropdown-menu {
-  width: 350px;
 }
 
 .dropdown-menu .modal__menu li {
   width: 50%;
-  float: left;
-}
-
-.list-tool .modal__menu li {
-  margin-top: 0;
 }

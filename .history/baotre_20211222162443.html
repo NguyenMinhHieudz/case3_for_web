@@ -1,0 +1,1047 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo tuổi trẻ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="baotre.css">
+    <script src="baotre"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner-container">
+                <div class="outer-logo">
+                    <a class="logo" href="#" title="TUỔI TRẺ CƯỜI ONLINE">
+                    <img src="https://cdncuoi.tuoitre.vn/ttc/source/img/logo-pc.png" alt="TUỔI TRẺ CƯỜI ONLINE"></a>
+                    </div>
+
+                    <ul class="list-tool d-flex justify-content-around">
+                        <li>
+                            <h4><a class="button" href="/xu-huong" title="Xu hướng">
+                                <i class="icon icon-trend"></i> Xu hướng </a> </h4>
+                        </li>
+
+                        <li> 
+                            <h4><a class="button" href="/xu-huong" title="Xu hướng">
+                                <i class="icon icon-hot"></i> Nổi bật </a></h4>
+                        </li> 
+
+                        <li> <h4><a class="button" href="#">
+                             <i class="icon icon-suggest"></i> Đề Xuất </a></h4> 
+                        </li>
+
+
+                        <div class="dropdown">
+                            <a
+                              class="btn btn-secondary dropdown-toggle"
+                              href="#"
+                              role="button"
+                              id="dropdownMenuLink"
+                              data-toggle="dropdown"
+                              aria-expanded="false">
+                          <ion-icon name="menu-outline"></ion-icon></a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul class="modal__menu">
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/tintuccuoi.png"
+                                        alt=""/>Tin...tức cười</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/video.png"
+                                        alt=""/>Video</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/giaitri.png"
+                                        alt=""/>Giải trí</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/gioitre.png"
+                                        alt=""/>Zới trẻ</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/biemhoa.png"
+                                        alt=""/>Biếm họa</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/doicuoi.png"
+                                        alt=""/>Đời cười</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/truyentranh.png"
+                                        alt=""/>Truyện tranh</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/suckhoe.png"
+                                        alt=""/>Sức khỏe</a>
+                                  </li>
+                        
+                                  <li>
+                                    <a class="dropdown-item" href="#">
+                                      <img
+                                        src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/the-thao.png"
+                                        alt=""/>Thể thao cười</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </ul>
+
+                        <div class="group-btn">
+                            <a class="button btn-mail" href="/gui-bai" title="Gửi tin">
+
+                                <i class="icon icon-mail"></i> Gửi tin</a>
+
+                                <button class="button btn-search" href="#"></button>
+
+                                <button class="button btn-search" type="button" data-target="#searchModal" data-toggle="modal">
+                                    
+                                <i class="icon icon-search-black"></i></button>
+                        </div>
+
+                </div>
+        </div>
+    </header>
+</body>
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<header class="header">
+  <div class="container">
+      <div class="inner-header">
+          <div class="outer-logo"><a class="logo" href="/" title="TUỔI TRẺ CƯỜI ONLINE"><img src="https://cdncuoi.tuoitre.vn/ttc/source/img/logo-pc.png" alt="TUỔI TRẺ CƯỜI ONLINE"></a></div>
+          <ul class="list-tool d-flex justify-content-around">
+              <li data-toggle="modal" data-target="#contentModal">
+                  <h4><a class="button" href="/xu-huong" title="Xu hướng"><i class="icon icon-trend"></i> Xu hướng </a></h4>
+              </li>
+              <li data-toggle="modal" data-target="#contentModal">
+                  <h4><a class="button" href="/noi-bat" title="Nổi bật"><i class="icon icon-hot"></i> Nổi bật </a></h4>
+              </li>
+              <li data-toggle="modal" data-target="#contentModal">
+                  <h4><a class="button" href="/de-xuat" title="Đề xuất"><i class="icon icon-suggest"></i> Đề xuất </a></h4>
+              </li>
+              <li class="dropdown menu"><a class="btn-menu dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                      <ul class="modal__menu title-list">
+                          <li><a href="/tin-tuc" title="Tin... Tức Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/tintuccuoi.png" alt="Tin... Tức Cười"> Tin... Tức Cười</a></li>
+                          <li><a href="/biem-hoa" title="Biếm Họa"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/biemhoa.png" alt="Biếm Họa"> Biếm Họa</a></li>
+                          <li><a href="/video" title="Video"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/video.png" alt="Video"> Video</a></li>
+                          <li><a href="/doi-cuoi" title="Đời Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/doicuoi.png" alt="Đời Cười"> Đời Cười</a></li>
+                          <li><a href="/giai-tri" title="Giải Trí"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/giaitri.png" alt="Giải Trí"> Giải Trí</a></li>
+                          <li><a href="/truyen-tranh" title="Truyện Tranh"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/truyentranh.png" alt="Truyện Tranh"> Truyện Tranh</a></li>
+                          <li><a href="/zoi-tre" title="Zới Trẻ"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/gioitre.png" alt="Zới Trẻ"> Zới Trẻ</a></li>
+                          <li><a href="/suc-khoe" title="Sức Khỏe"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/suckhoe.png" alt="Sức Khỏe"> Sức Khỏe</a></li>
+                          <li><a href="/the-thao-cuoi" title="Thể Thao Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/the-thao.png" alt="Thể Thao Cười"> Thể Thao Cười</a></li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+          <div class="group-btn"><a class="button btn-mail" href="/gui-bai" title="Gửi tin"><i class="icon icon-mail"></i> Gửi tin</a><button class="button btn-search" href="#"></button><button class="button btn-search" type="button" data-target="#searchModal" data-toggle="modal"><i class="icon icon-search-black"></i></button></div>
+      </div>
+  </div>
+</header>
+<div class="banner-top">
+  <zone id="k1hb2urw"></zone>
+  <script>
+      arfAsync.push("k1hb2urw");
+  </script>
+</div>
+<section class="page-section page-section-top">
+  <div class="container">
+      <div class="owl-carousel owl-carousel-1 owl-theme">
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/21/giang-sinh-binh-thuong-moi-1640059328-15x22.jpg" alt="Giáng Sinh bình thường mới"></a>
+                      <div class="des">
+                          <h2><a href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới">Giáng Sinh bình thường mới</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/biem-hoa" title="Biếm Họa"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/biemhoa.png" alt="Biếm Họa"> Biếm Họa </a>
+              </div>
+          </div>
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/20/tranh-biem-hoa-ong-gia-noel-nhieu-mau-sac-1639971406-15x22.jpg" alt="Vì sao ông già Noel có nhiều màu?"></a>
+                      <div class="des">
+                          <h2><a href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?">Vì sao ông già Noel có nhiều màu?</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/biem-hoa" title="Biếm Họa"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/biemhoa.png" alt="Biếm Họa"> Biếm Họa </a>
+              </div>
+          </div>
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/zoi-tre/trung-quoc-cum-tu-cho-que-o-thanh-thi-gay-soc-dan-van-phong-2021122256088315.html" title="Trung Quốc: Cụm từ 'chó quê ở thành thị' gây sốc dân văn phòng"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/22/cho-que-o-thanh-thi-01-1640156932-15x22.jpeg" alt="Trung Quốc: Cụm từ 'chó quê ở thành thị' gây sốc dân văn phòng"></a>
+                      <div class="des">
+                          <h2><a href="/zoi-tre/trung-quoc-cum-tu-cho-que-o-thanh-thi-gay-soc-dan-van-phong-2021122256088315.html" title="Trung Quốc: Cụm từ 'chó quê ở thành thị' gây sốc dân văn phòng">Trung Quốc: Cụm từ 'chó quê ở thành thị' gây sốc dân văn phòng</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/zoi-tre" title="Zới Trẻ"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/gioitre.png" alt="Zới Trẻ"> Zới Trẻ </a>
+              </div>
+          </div>
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/zoi-tre/nhom-thanh-nien-mac-dong-phuc-den-dai-nao-ga-cat-linh-ha-dong-2021122231715295.html" title="Nhóm thanh niên mặc đồng phục đen 'đại náo' ga Cát Linh - Hà Đông"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/22/nhom-thanh-nien-mac-dong-phuc-den-cover-1640154895-15x22.jpg" alt="Nhóm thanh niên mặc đồng phục đen 'đại náo' ga Cát Linh - Hà Đông"></a>
+                      <div class="des">
+                          <h2><a href="/zoi-tre/nhom-thanh-nien-mac-dong-phuc-den-dai-nao-ga-cat-linh-ha-dong-2021122231715295.html" title="Nhóm thanh niên mặc đồng phục đen 'đại náo' ga Cát Linh - Hà Đông">Nhóm thanh niên mặc đồng phục đen 'đại náo' ga Cát Linh - Hà Đông</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/zoi-tre" title="Zới Trẻ"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/gioitre.png" alt="Zới Trẻ"> Zới Trẻ </a>
+              </div>
+          </div>
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/video/nguoi-di-duong-giai-cuu-chu-cho-bi-mac-ket-o-khuc-cay-2021122214315924.html" title="Người đi đường giải cứu chú chó bị mắc kẹt ở khúc cây"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/22/giai-cuu-1640140127-15x22.jpg" alt="Người đi đường giải cứu chú chó bị mắc kẹt ở khúc cây"></a>
+                      <div class="des">
+                          <h2><a href="/video/nguoi-di-duong-giai-cuu-chu-cho-bi-mac-ket-o-khuc-cay-2021122214315924.html" title="Người đi đường giải cứu chú chó bị mắc kẹt ở khúc cây">Người đi đường giải cứu chú chó bị mắc kẹt ở khúc cây</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/video" title="Video"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/video.png" alt="Video"> Video </a>
+              </div>
+          </div>
+          <div class="item">
+              <div>
+                  <article class="art-5 art-black"><a class="thumb thumb-520x520" href="/giai-tri/ba-nguoi-dep-viet-lam-khuynh-dao-dau-truong-nhan-sac-the-gioi-2021122126115744.html" title="Ba người đẹp Việt làm 'khuynh đảo' đấu trường nhan sắc thế giới"><img height="240" class="lazyload img-520x520" src="https://cuoifly.tuoitre.vn/180/225/ttc/r/2021/12/21/ba-nhan-sac-viet-dang-quang-hh-the-gioi-1-1640099934-15x22.jpg" alt="Ba người đẹp Việt làm 'khuynh đảo' đấu trường nhan sắc thế giới"></a>
+                      <div class="des">
+                          <h2><a href="/giai-tri/ba-nguoi-dep-viet-lam-khuynh-dao-dau-truong-nhan-sac-the-gioi-2021122126115744.html" title="Ba người đẹp Việt làm 'khuynh đảo' đấu trường nhan sắc thế giới">Ba người đẹp Việt làm 'khuynh đảo' đấu trường nhan sắc thế giới</a></h2>
+                      </div>
+                  </article><a class="link-category" href="/giai-tri" title="Giải Trí"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/giaitri.png" alt="Giải Trí"> Giải Trí </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="container">
+      <div id="add_title" class="d-flex">
+          <section class="content">
+              <section class="section border-bottom-red">
+                  <div class="row">
+                      <div class="col-lg-7 col-lg-65">
+                          <article class="art-2"><a class="thumb" href="/biem-hoa/10-cach-han-che-nhung-ke-chuyen-lam-giau-bang-tien-tu-thien-2021122244062155.html" title="10 cách hạn chế những kẻ chuyên làm giàu bằng tiền từ thiện"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/507/380/ttc/r/2021/12/22/top10-han-che-tu-thien-dom-1640140983-26x17.jpg" alt="10 cách hạn chế những kẻ chuyên làm giàu bằng tiền từ thiện"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h1><a href="/biem-hoa/10-cach-han-che-nhung-ke-chuyen-lam-giau-bang-tien-tu-thien-2021122244062155.html" title="10 cách hạn chế những kẻ chuyên làm giàu bằng tiền từ thiện">10 cách hạn chế những kẻ chuyên làm giàu bằng tiền từ thiện <i class="icon icon-photo"></i></a></h1>
+                                  <p>Một trong những cách đó là: Áp dụng quy trình "truy vết Covid-19" để xác định đường đi của tiền từ thiện, xem nó dừng ở đâu sẽ rõ ngay!</p>
+                              </div>
+                          </article>
+                          <ul class="list-s">
+                              <li>
+                                  <article class="art-new-small"><a class="thumb" href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/21/giang-sinh-binh-thuong-moi-1640059190-1x1.jpg" alt="Giáng Sinh bình thường mới"></a>
+                                      <div class="des">
+                                          <h5><a href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới">Giáng Sinh bình thường mới</a></h5>
+                                      </div>
+                                  </article>
+                              </li>
+                              <li>
+                                  <article class="art-new-small"><a class="thumb" href="/biem-hoa/tut-mood-vi-tet-tay-tet-ta-2021121771515358.html" title="Tụt 'mood' vì Tết Tây, Tết ta"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/17/tranh-biem-hoa-vui-nghi-tet-thuong-tet-1639729474-1x1.jpg" alt="Tụt 'mood' vì Tết Tây, Tết ta"></a>
+                                      <div class="des">
+                                          <h5><a href="/biem-hoa/tut-mood-vi-tet-tay-tet-ta-2021121771515358.html" title="Tụt 'mood' vì Tết Tây, Tết ta">Tụt 'mood' vì Tết Tây, Tết ta</a></h5>
+                                      </div>
+                                  </article>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-5 col-lg-45">
+                          <article class="art-3"><a class="thumb" href="/biem-hoa/tinh-hinh-thuong-tet-nam-covit-2021122253815552.html" title="Tình hình thưởng Tết năm Cô-Vít"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/303/227/ttc/r/2021/12/22/tranh-biem-hoa-thuong-tet-2-1640137866-26x17.jpg" alt="Tình hình thưởng Tết năm Cô-Vít"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h2><a href="/biem-hoa/tinh-hinh-thuong-tet-nam-covit-2021122253815552.html" title="Tình hình thưởng Tết năm Cô-Vít">Tình hình thưởng Tết năm Cô-Vít <i class="icon icon-photo"></i></a></h2>
+                              </div>
+                          </article>
+                          <article class="art-3"><a class="thumb" href="/giai-tri/netizen-che-kich-ban-bac-dau-cong-ly-vang-mat-o-tao-quan-2022-2021122191015396.html" title="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/303/227/ttc/r/2021/12/22/bac-dau-cong-ly-vang-mat-2-1640112386-26x17.jpeg" alt="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h2><a href="/giai-tri/netizen-che-kich-ban-bac-dau-cong-ly-vang-mat-o-tao-quan-2022-2021122191015396.html" title="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022">Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022 </a></h2>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </section>
+              <section class="section">
+                  <div class="title title-icon">
+                      <h2 class="orange"><a href="/biem-hoa" title="Biếm Họa"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/biemhoa.png" alt="Biếm Họa"><span>Biếm Họa</span></a></h2>
+                  </div>
+                  <article class="art-new-bh"><a class="thumb" href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/400/300/ttc/r/2021/12/21/giang-sinh-binh-thuong-moi-1640059190-26x17.jpg" alt="Giáng Sinh bình thường mới"></a>
+                      <div class="des">
+                          <ul class="bar"></ul>
+                          <h3><a href="/biem-hoa/giang-sinh-binh-thuong-moi-2021122174312159.html" title="Giáng Sinh bình thường mới">Giáng Sinh bình thường mới <i class="icon icon-photo"></i></a></h3>
+                          <p>Nam nay Giáng Sinh đến sớm quá, vừa ăn Tết xong, quay đi quay lại đã đến Noel...</p>
+                          <ul class="list-s">
+                              <li>
+                                  <article class="art-new-small"><a class="thumb" href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/20/tranh-biem-hoa-ong-gia-noel-nhieu-mau-sac-1639971406-1x1.jpg" alt="Vì sao ông già Noel có nhiều màu?"></a>
+                                      <div class="des">
+                                          <h5><a href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?">Vì sao ông già Noel có nhiều màu?</a></h5>
+                                      </div>
+                                  </article>
+                              </li>
+                              <li>
+                                  <article class="art-new-small"><a class="thumb" href="/biem-hoa/noel-sang-chanh-2021121923615735.html" title="Noel sang chảnh"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/19/tranh-vui-noel-sang-chanh-1639906084-1x1.jpg" alt="Noel sang chảnh"></a>
+                                      <div class="des">
+                                          <h5><a href="/biem-hoa/noel-sang-chanh-2021121923615735.html" title="Noel sang chảnh">Noel sang chảnh</a></h5>
+                                      </div>
+                                  </article>
+                              </li>
+                          </ul>
+                      </div>
+                  </article><span class="border-1"></span>
+                  <div class="row">
+                      <div class="col-lg-4">
+                          <article class="art-4"><a class="thumb" href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/263/197/ttc/r/2021/12/20/tranh-biem-hoa-ong-gia-noel-nhieu-mau-sac-1639971406-26x17.jpg" alt="Vì sao ông già Noel có nhiều màu?"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/biem-hoa/vi-sao-ong-gia-noel-co-nhieu-mau-2021122073895215.html" title="Vì sao ông già Noel có nhiều màu?">Vì sao ông già Noel có nhiều màu? <i class="icon icon-photo"></i></a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="col-lg-4">
+                          <article class="art-4"><a class="thumb" href="/biem-hoa/ba-lac-hau-roi-2021122131415715.html" title="Ba lạc hậu rồi"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/263/197/ttc/r/2021/12/21/tranh-biem-hoa-buon-ban-bat-dong-san-nha-dat-1640086470-26x17.jpg" alt="Ba lạc hậu rồi"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/biem-hoa/ba-lac-hau-roi-2021122131415715.html" title="Ba lạc hậu rồi">Ba lạc hậu rồi <i class="icon icon-photo"></i></a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="col-lg-4">
+                          <article class="art-4"><a class="thumb" href="/biem-hoa/tinh-hinh-thuong-tet-nam-covit-2021122253815552.html" title="Tình hình thưởng Tết năm Cô-Vít"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/263/197/ttc/r/2021/12/22/tranh-biem-hoa-thuong-tet-2-1640137866-26x17.jpg" alt="Tình hình thưởng Tết năm Cô-Vít"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/biem-hoa/tinh-hinh-thuong-tet-nam-covit-2021122253815552.html" title="Tình hình thưởng Tết năm Cô-Vít">Tình hình thưởng Tết năm Cô-Vít <i class="icon icon-photo"></i></a></h4>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </section>
+              <section class="section">
+                  <div class="title title-icon">
+                      <div>
+                          <h2 class="red"><a href="/tin-tuc" title="Tin ...Tức Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/tintuccuoi.png" alt="Tin ...Tức Cười"><span>Tin ...Tức Cười</span></a></h2>
+                      </div>
+                  </div>
+                  <div class="block-new">
+                      <article class="art-right art-7"><a class="thumb" href="/zoi-tre/canh-sat-nhat-trom-hom-cong-duc-vi-vo-khong-cho-tien-tieu-vat-2021121833715824.html" title="Cảnh sát Nhật trộm hòm công đức vì vợ không cho tiền tiêu vặt"><img class="lazyload img-4x5" src="https://cuoifly.tuoitre.vn/275/343/ttc/r/2021/12/18/trom-hom-cong-duc-01-1639810693-15x22.jpeg" alt="Cảnh sát Nhật trộm hòm công đức vì vợ không cho tiền tiêu vặt"></a>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h3><a href="/zoi-tre/canh-sat-nhat-trom-hom-cong-duc-vi-vo-khong-cho-tien-tieu-vat-2021121833715824.html" title="Cảnh sát Nhật trộm hòm công đức vì vợ không cho tiền tiêu vặt">Cảnh sát Nhật trộm hòm công đức vì vợ không cho tiền tiêu vặt</a></h3>
+                              <p>Không được vợ cho tiền tiêu vặt suốt 10 năm, một viên sĩ quan cảnh sát đã đi trộm tiền công đức để uống cà phê và mua thuốc lá.</p>
+                              <ul class="list-s">
+                                  <li>
+                                      <article class="art-new-small"><a class="thumb thumb-40x40" href="/zoi-tre/chong-cuu-cong-chua-nhat-chua-thoat-thi-phi-bi-dao-lai-anh-an-choi-2021121824318915.html" title="Chồng cựu công chúa Nhật chưa thoát thị phi, bị đào lại ảnh ăn chơi"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/18/kei-komuro-lo-anh-qua-khu-02-1639798117-1x1.jpeg" alt="Chồng cựu công chúa Nhật chưa thoát thị phi, bị đào lại ảnh ăn chơi"></a>
+                                          <div class="des">
+                                              <h5><a href="/zoi-tre/chong-cuu-cong-chua-nhat-chua-thoat-thi-phi-bi-dao-lai-anh-an-choi-2021121824318915.html" title="Chồng cựu công chúa Nhật chưa thoát thị phi, bị đào lại ảnh ăn chơi">Chồng cựu công chúa Nhật chưa thoát thị phi, bị đào lại ảnh ăn chơi</a></h5>
+                                          </div>
+                                      </article>
+                                  </li>
+                                  <li>
+                                      <article class="art-new-small"><a class="thumb thumb-40x40" href="/zoi-tre/thanh-nien-nhac-mi-mat-nguoi-yeu-de-trom-tien-trong-vi-dien-tu-2021121691019151.html" title="Thanh niên nhấc mí mắt người yêu để trộm tiền trong ví điện tử"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/16/thanh-nien-trom-tien-cover-1639647496-1x1.jpg" alt="Thanh niên nhấc mí mắt người yêu để trộm tiền trong ví điện tử"></a>
+                                          <div class="des">
+                                              <h5><a href="/zoi-tre/thanh-nien-nhac-mi-mat-nguoi-yeu-de-trom-tien-trong-vi-dien-tu-2021121691019151.html" title="Thanh niên nhấc mí mắt người yêu để trộm tiền trong ví điện tử">Thanh niên nhấc mí mắt người yêu để trộm tiền trong ví điện tử</a></h5>
+                                          </div>
+                                      </article>
+                                  </li>
+                              </ul>
+                          </div>
+                      </article><span class="border-1"></span>
+                      <article class="art-right art-7"><a class="thumb" href="/tin-tuc/sao-nu-truyen-hinh-thuc-te-len-doi-nho-ban-lo-xi-hoi-2021121899678159.html" title="Sao nữ truyền hình thực tế lên đời nhờ bán 'lọ xì hơi'"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/274/154/ttc/r/2021/12/18/stephanie-matto-sell-fart-2-1639794874-16x9.jpg" alt="Sao nữ truyền hình thực tế lên đời nhờ bán 'lọ xì hơi'"></a>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h4><a href="/tin-tuc/sao-nu-truyen-hinh-thuc-te-len-doi-nho-ban-lo-xi-hoi-2021121899678159.html" title="Sao nữ truyền hình thực tế lên đời nhờ bán 'lọ xì hơi'">Sao nữ truyền hình thực tế lên đời nhờ bán 'lọ xì hơi'</a></h4>
+                              <p>Câu chuyện nực cười và quái gỡ này khiến ai cũng phải thốt lên: 'Đời này chuyện gì cũng có thể xảy ra!'.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                      <article class="art-right art-7"><a class="thumb" href="/tin-tuc/53-tieng-chim-hot-vao-top-5-bang-xep-hang-am-nhac-uc-2021121784338155.html" title="53 tiếng chim hót vào Top 5 Bảng xếp hạng âm nhạc Úc"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/274/154/ttc/r/2021/12/17/b2-gang-gang-cockatoo-1639727205-16x9.jpg" alt="53 tiếng chim hót vào Top 5 Bảng xếp hạng âm nhạc Úc"></a>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h4><a href="/tin-tuc/53-tieng-chim-hot-vao-top-5-bang-xep-hang-am-nhac-uc-2021121784338155.html" title="53 tiếng chim hót vào Top 5 Bảng xếp hạng âm nhạc Úc">53 tiếng chim hót vào Top 5 Bảng xếp hạng âm nhạc Úc</a></h4>
+                              <p>Với tiếng hót của 53 loài chim ở Úc, “Songs of Disappearance” vừa vượt qua các album nhạc nổi tiếng của ABBA, Mariah Carey,… trên Bảng xếp hạng doanh số âm nhạc ARIA.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                  </div>
+              </section>
+              <style>
+                  .imgs {
+                      width: 193px;
+                      height: 144px;
+                  }
+
+                  .video-js .vjs-big-play-button {
+                      font-size: 3em;
+                      line-height: 2em;
+                      height: 2em;
+                      width: 2em;
+                      top: 45%;
+                      left: 45%;
+                      padding: 0;
+                      border-radius: 1.3em;
+                  }
+              </style>
+              <section class="section section-yellow">
+                  <div class="title title-icon">
+                      <div>
+                          <h2 class="yellow"><a href="/video" title="Video"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/video.png" alt="Video"><span>Video</span></a>
+                              <div class="list-title"><a class="target_term" data-id="10" href="javascript:void(0)" title="Giải trí">Giải trí</a><a class="target_term" data-id="11" href="javascript:void(0)" title="Hài hước">Hài hước</a><a class="target_term" data-id="12" href="javascript:void(0)" title="Tin tức">Tin tức</a><a class="target_term" data-id="13" href="javascript:void(0)" title="Khám phá">Khám phá</a><a class="target_term" data-id="14" href="javascript:void(0)" title="Gia đình">Gia đình</a><a class="link-more-1" href="/video" title="">Xem thêm</a></div>
+                          </h2>
+                      </div>
+                  </div>
+                  <article class="art-video-b" oncontextmenu="return false;">
+                      <div style="height: 349px" class="thumb-video" data-video-info="https://cuoi.tuoitre.vn/video-api/info/thu-mon-dam-guc-1640060050-926424" data-format="mp4" data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/21/thu-mon-dam-guc-1640060050.mp4" data-poster="https://cuoifly.tuoitre.vn/475/297/ttc/r/2021/12/21/thu-mon-1-1640060036-16x9.jpg"><video style="height: 100%" id="vid1" class="video-js vjs-default-skin vjs-fluid" controls width="620" height="387"></video></div>
+                      <div class="des">
+                          <ul class="bar"></ul>
+                          <h3><a id="main_title" href="/video/thu-mon-nhan-the-do-khi-vo-tinh-dam-guc-cau-thu-ghi-ban-doi-phuong-2021122175286515.html" title="Thủ môn nhận thẻ đỏ khi vô tình đấm gục cầu thủ ghi bàn đối phương">Thủ môn nhận thẻ đỏ khi vô tình đấm gục cầu thủ ghi bàn đối phương <i class="icon icon-mayquay"></i></a></h3>
+                          <p id="main_des">Bị đối thủ sút thủng lưới, thủ môn của Hannover 96 tự trách mình bằng hành động đấm vào quả bóng nhưng hụt trúng vào cầu thủ ghi bàn của Karlsruher SC và bị nhận thẻ đỏ.</p>
+                      </div>
+                  </article>
+                  <div class="owl-carousel owl-carousel-2 owl-theme" oncontextmenu="return false;">
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Chàng trai vô gia cư nghẹn ngào khi được người lạ cho tiền"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/21/bat-khoc-1640053408-16x9.jpg" data-link="/video/chang-trai-vo-gia-cu-nghen-ngao-khi-duoc-nguoi-la-cho-tien-2021122147321815.html" data-des="Sau khi chia sẻ đồ ăn với người lạ, chàng trai vô gia cư không kiềm nỗi xúc động khi được người này rút tiền trong túi ra cho mình." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/21/chia-se-thuc-an-chang-vo-gia-cu-bat-khoc-khi-duoc-nguoi-dan-ong-cho-tien-1640053411.mp4" alt="Chàng trai vô gia cư nghẹn ngào khi được người lạ cho tiền"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/chang-trai-vo-gia-cu-nghen-ngao-khi-duoc-nguoi-la-cho-tien-2021122147321815.html" title="Chàng trai vô gia cư nghẹn ngào khi được người lạ cho tiền">Chàng trai vô gia cư nghẹn ngào khi được người lạ cho tiền <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Các con bí mật tổ chức mừng kỷ niệm 30 năm ngày cưới của bố mẹ"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/21/ki-niem-cuoi-1640054545-16x9.jpg" data-link="/video/cac-con-bi-mat-to-chuc-mung-ky-niem-30-nam-ngay-cuoi-cua-bo-me-2021122111228315.html" data-des="Các con trong nhà cùng nhau lên kế hoạch bí mật tổ chức mừng ngày kỷ niệm 30 năm cưới, khiến bố mẹ không khỏi xúc động và hạnh phúc." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/21/ca-nha-cung-to-chuc-mung-ngay-ky-niem-30-nam-cuoi-nhau-cua-ba-me-1640054548.mp4" alt="Các con bí mật tổ chức mừng kỷ niệm 30 năm ngày cưới của bố mẹ"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/cac-con-bi-mat-to-chuc-mung-ky-niem-30-nam-ngay-cuoi-cua-bo-me-2021122111228315.html" title="Các con bí mật tổ chức mừng kỷ niệm 30 năm ngày cưới của bố mẹ">Các con bí mật tổ chức mừng kỷ niệm 30 năm ngày cưới của bố mẹ <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Golden hờn dỗi khi sen không cho cánh gà chiên"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/21/chu-cho-buon-fb-1640081747-16x9.jpg" data-link="/video/golden-hon-doi-khi-sen-khong-cho-canh-ga-chien-2021122119515254.html" data-des="&quot;Husky được ăn cánh gà chiên, còn phần của tui đâu?&quot;, golden said." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/21/chu-cho-hon-doi-1640081695.mp4" alt="Golden hờn dỗi khi sen không cho cánh gà chiên"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/golden-hon-doi-khi-sen-khong-cho-canh-ga-chien-2021122119515254.html" title="Golden hờn dỗi khi sen không cho cánh gà chiên">Golden hờn dỗi khi sen không cho cánh gà chiên <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Chàng trai trượt chân ngã giập mông khi thối tiền cho khách"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/21/chang-trai-te-dap-mong-khi-thoi-tien-cho-khach-1640067400-16x9.jpg" data-link="/video/chang-trai-truot-chan-nga-giap-mong-khi-thoi-tien-cho-khach-2021122159550615.html" data-des="&quot;Chị đừng cười! Em ngượng lắm rồi!&quot;, chàng trai said." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/21/chang-trai-te-dap-mong-khi-thoi-tien-cho-khach-1640067395.mp4" alt="Chàng trai trượt chân ngã giập mông khi thối tiền cho khách"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/chang-trai-truot-chan-nga-giap-mong-khi-thoi-tien-cho-khach-2021122159550615.html" title="Chàng trai trượt chân ngã giập mông khi thối tiền cho khách">Chàng trai trượt chân ngã giập mông khi thối tiền cho khách <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Bàn thắng của số phận an bài"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/22/ban-thang-1640123499-16x9.jpg" data-link="/video/ban-thang-cua-so-phan-an-bai-2021122198161157.html" data-des="&quot;Chuyện xui rủi chắc tao muốn mày ơi!&quot;, thủ môn said." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/22/ban-thang-an-phan-1640123506.mp4" alt="Bàn thắng của số phận an bài"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/ban-thang-cua-so-phan-an-bai-2021122198161157.html" title="Bàn thắng của số phận an bài">Bàn thắng của số phận an bài <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Cầu thủ tranh thủ ghi bàn khi đồng đội đang bị thương"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/20/cau-thu-1-1639963207-16x9.jpg" data-link="/video/cau-thu-tranh-thu-ghi-ban-khi-dong-doi-dang-bi-thuong-2021122027795152.html" data-des="Đang chăm sóc đồng đội bị thương nằm trước cầu gôn, cầu thủ lập tức chớp cơ hội ghi bàn khi thấy thủ môn đối phương mắc sai lầm. " data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/20/cau-thu-1-1639963672.mp4" alt="Cầu thủ tranh thủ ghi bàn khi đồng đội đang bị thương"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/cau-thu-tranh-thu-ghi-ban-khi-dong-doi-dang-bi-thuong-2021122027795152.html" title="Cầu thủ tranh thủ ghi bàn khi đồng đội đang bị thương">Cầu thủ tranh thủ ghi bàn khi đồng đội đang bị thương <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Chú chó nổi quạu với con mèo đùa nhây"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/20/chu-cho-2-fb-1639966246-16x9.jpg" data-link="/video/chu-cho-noi-quau-voi-con-meo-dua-nhay-2021122034153153.html" data-des="Bị con mèo chọc tức ngày này qua ngày khác, chú chó bực dọc tìm cách mở chốt cửa để dằn mặt." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/20/chu-cho-noi-doa-voi-con-meo-dua-nhay-1639966256.mp4" alt="Chú chó nổi quạu với con mèo đùa nhây"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/chu-cho-noi-quau-voi-con-meo-dua-nhay-2021122034153153.html" title="Chú chó nổi quạu với con mèo đùa nhây">Chú chó nổi quạu với con mèo đùa nhây <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Video hài hot nhất tuần qua: Chồng chạy xe máy 'rớt vợ' không biết"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/18/vo-ngo-ngac-1639794169-16x9.jpg" data-link="/video/video-hai-hot-nhat-tuan-qua-chong-chay-xe-may-rot-vo-khong-biet-2021121970915247.html" data-des="&#039;Vợ chưa ngồi lên xe, chồng đã phóng đi mải 3 phút sau mới biết quay lại đón&#039;, hay &#039;mẹ bỉm sữa nhún nhảy hát khi trông con&#039;... là một trong những video hài nhất tuần qua." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/20/video-hai-nhat-tuan-1639955368.mp4" alt="Video hài hot nhất tuần qua: Chồng chạy xe máy &#039;rớt vợ&#039; không biết"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/video-hai-hot-nhat-tuan-qua-chong-chay-xe-may-rot-vo-khong-biet-2021121970915247.html" title="Video hài hot nhất tuần qua: Chồng chạy xe máy 'rớt vợ' không biết">Video hài hot nhất tuần qua: Chồng chạy xe máy 'rớt vợ' không biết <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div>
+                              <article class="art-5 border art-black"><a class="thumb" href="javascript:void(0)" title="Chú chó thất tình được mèo động viên"><img style="height:130px !important" class="lazyload img-4x3 imgs" src="https://cuoifly.tuoitre.vn/192/144/ttc/r/2021/12/20/chu-meo-1639984913-16x9.jpg" data-link="/video/chu-cho-that-tinh-duoc-meo-dong-vien-2021122018799159.html" data-des="&quot;Mày chỉ hơi xấu, hơi dơ, hơi ham ăn một chút... nhưng được cái mày nghèo nữa, nên mày đừng buồn nha&quot;, mèo said." data-vid="https://cdncuoi.tuoitre.vn/ttc/r/2021/12/20/chu-meo-dong-vien-ban-1639984925.mp4" alt="Chú chó thất tình được mèo động viên"></a>
+                                  <div class="des">
+                                      <h2><a href="/video/chu-cho-that-tinh-duoc-meo-dong-vien-2021122018799159.html" title="Chú chó thất tình được mèo động viên">Chú chó thất tình được mèo động viên <i class="icon icon-mayquay"></i></a></h2>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <script src="//adminplayer.sohatv.vn/resource/init-script/playerInitScript.js"></script>
+              <section class="section">
+                  <div class="title title-icon">
+                      <div>
+                          <h2 class="blue"><a href="/truyen-tranh" title="Truyện Tranh"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/truyentranh.png" alt="Truyện Tranh"><span>Truyện Tranh</span></a></h2>
+                      </div>
+                  </div>
+                  <div class="outer-comic">
+                      <div class="slider-comic owl-carousel owl-theme">
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/thang-ti-tro-tai-ve-ong-gia-noel-2021121978815161.html" title="Thằng Tí trổ tài vẽ ông già Noel"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/19/truyen-tranh-vui-thang-ti-ve-ong-gia-noel-1639879574-15x22.jpg" alt="Thằng Tí trổ tài vẽ ông già Noel"><a class="icon-author" href="/nhan-vat/ti-du-46.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/djAKBVJ5vW-n68jIax_Z4a4OZLlDak4k.jpg" alt="Tí Đù"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/thang-ti-tro-tai-ve-ong-gia-noel-2021121978815161.html" title="Thằng Tí trổ tài vẽ ông già Noel"> Thằng Tí trổ tài vẽ ông già Noel <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/san-duoc-hang-sale-ma-van-lo-2021121853229715.html" title="Săn được hàng sale mà vẫn lỗ"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/18/truyen-tranh-vui-san-sale-1639828431-15x22.jpg" alt="Săn được hàng sale mà vẫn lỗ"><a class="icon-author" href="/nhan-vat/vang-11.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/2vgxjrsbuUji1pd63RVqkXbrWyAiXTKH.jpg" alt="Vàng"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/san-duoc-hang-sale-ma-van-lo-2021121853229715.html" title="Săn được hàng sale mà vẫn lỗ"> Săn được hàng sale mà vẫn lỗ <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/online-hay-offline-co-loi-hon-2021122031524154.html" title="Online hay offline có lợi hơn?"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/20/truyen-tranh-vui-hoc-online-ofline-1640003958-15x22.jpg" alt="Online hay offline có lợi hơn?"><a class="icon-author" href="/nhan-vat/n9-10.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/-TdFGG-HncF773h5tz73aU6UsxHJi-WK.jpg" alt="N9"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/online-hay-offline-co-loi-hon-2021122031524154.html" title="Online hay offline có lợi hơn?"> Online hay offline có lợi hơn? <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/sot-dat-chang-lien-quan-toi-minh-2021121799849515.html" title="Sốt đất chẳng liên quan tới mình"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/17/c12b-2021-truyen-tranh-bat-dong-san-sot-dat-1639708265-15x22.jpg" alt="Sốt đất chẳng liên quan tới mình"><a class="icon-author" href="/nhan-vat/vang-11.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/2vgxjrsbuUji1pd63RVqkXbrWyAiXTKH.jpg" alt="Vàng"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/sot-dat-chang-lien-quan-toi-minh-2021121799849515.html" title="Sốt đất chẳng liên quan tới mình"> Sốt đất chẳng liên quan tới mình <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/quay-bai-co-tam-2021121483690152.html" title="Quay bài có tâm"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/14/truyen-tranh-vui-quay-cop-hoc-online-1639471825-15x22.jpg" alt="Quay bài có tâm"><a class="icon-author" href="/nhan-vat/ti-du-46.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/djAKBVJ5vW-n68jIax_Z4a4OZLlDak4k.jpg" alt="Tí Đù"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/quay-bai-co-tam-2021121483690152.html" title="Quay bài có tâm"> Quay bài có tâm <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/mat-bang-thoi-hau-dich-2021110485253159.html" title="Mặt bằng thời hậu dịch"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/11/04/tranh-vui-mat-bang-hang-quan-hau-dich-1635989010-15x22.jpg" alt="Mặt bằng thời hậu dịch"><a class="icon-author" href="/nhan-vat/vang-11.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/2vgxjrsbuUji1pd63RVqkXbrWyAiXTKH.jpg" alt="Vàng"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/mat-bang-thoi-hau-dich-2021110485253159.html" title="Mặt bằng thời hậu dịch"> Mặt bằng thời hậu dịch <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/tam-su-cua-mot-co-gai-lam-hoai-ma-khong-du-tien-tieu-2021121372977156.html" title="Tâm sự của một cô gái 'Làm hoài mà không đủ tiền tiêu'"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/13/truyen-tranh-vui-mua-sam-online-shopping-1639369783-15x22.jpg" alt="Tâm sự của một cô gái 'Làm hoài mà không đủ tiền tiêu'"><a class="icon-author" href="/nhan-vat/vang-11.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/2vgxjrsbuUji1pd63RVqkXbrWyAiXTKH.jpg" alt="Vàng"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/tam-su-cua-mot-co-gai-lam-hoai-ma-khong-du-tien-tieu-2021121372977156.html" title="Tâm sự của một cô gái 'Làm hoài mà không đủ tiền tiêu'"> Tâm sự của một cô gái 'Làm hoài mà không đủ tiền tiêu' <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/thang-ti-phoi-do-ca-xom-mat-ngu-2021121233515772.html" title="Thằng Tí phơi đồ, cả xóm mất ngủ"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/12/truyen-tranh-vui-thang-ti-phoi-do-1639286884-15x22.jpg" alt="Thằng Tí phơi đồ, cả xóm mất ngủ"><a class="icon-author" href="/nhan-vat/ti-du-46.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/djAKBVJ5vW-n68jIax_Z4a4OZLlDak4k.jpg" alt="Tí Đù"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/thang-ti-phoi-do-ca-xom-mat-ngu-2021121233515772.html" title="Thằng Tí phơi đồ, cả xóm mất ngủ"> Thằng Tí phơi đồ, cả xóm mất ngủ <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/triet-ly-lam-bieng-2021121142454155.html" title="Triết lý... làm biếng"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/11/truyen-tranh-vui-chuyen-nho-nhu-con-tho-1639188789-15x22.jpg" alt="Triết lý... làm biếng"><a class="icon-author" href="/nhan-vat/thang-fly-9.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/-VZu8tm83bIlJu1BSQ4yfIKTq5hdPyVw.jpg" alt="Thăng Fly"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/triet-ly-lam-bieng-2021121142454155.html" title="Triết lý... làm biếng"> Triết lý... làm biếng <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                          <div class="item">
+                              <article class="art-comic"><a class="thumb" href="/truyen-tranh/chuyen-tinh-bac-te-giac-2021120889815176.html" title="Chuyện tình bác tê giác"><img class="lazyload 3x4" src="https://cuoifly.tuoitre.vn/305/381/ttc/r/2021/12/08/truyen-tranh-vui-bac-te-giac-fa-1638931348-15x22.jpg" alt="Chuyện tình bác tê giác"><a class="icon-author" href="/nhan-vat/thang-fly-9.html"><img src="https://cuoifly.tuoitre.vn/40/0/ttc/source//1/-VZu8tm83bIlJu1BSQ4yfIKTq5hdPyVw.jpg" alt="Thăng Fly"></a></a>
+                                  <div class="des">
+                                      <ul class="bar"></ul>
+                                      <h3><a href="/truyen-tranh/chuyen-tinh-bac-te-giac-2021120889815176.html" title="Chuyện tình bác tê giác"> Chuyện tình bác tê giác <i class="icon icon-photo"></i></a></h3>
+                                  </div>
+                              </article>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <section class="section">
+                  <div class="title title-icon">
+                      <div>
+                          <h2 class="blue-light"><a href="/giai-tri" title="Giải Trí"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/giaitri.png" alt="Giải Trí"><span>Giải Trí</span></a></h2>
+                      </div>
+                  </div>
+                  <div class="block-new">
+                      <article class="art-right art-new-b">
+                          <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/giai-tri/vua-dang-anh-moi-hai-tu-lai-bi-vap-dui-2021122169115994.html" title="Vừa đăng ảnh mới, Hải Tú lại bị vập dùi"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/540/304/ttc/r/2021/12/22/hai-tu-vo-van-hoa-10-1640115121-16x9.jpg" alt="Vừa đăng ảnh mới, Hải Tú lại bị vập dùi"></a></div>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h3><a href="/giai-tri/vua-dang-anh-moi-hai-tu-lai-bi-vap-dui-2021122169115994.html" title="Vừa đăng ảnh mới, Hải Tú lại bị vập dùi"> Vừa đăng ảnh mới, Hải Tú lại bị vập dùi </a></h3>
+                              <p>Không còn nghi ngờ gì nữa, 'gà cưng' của Sơn Tùng M-TP đích thị là cô nàng thị phi nhất năm của showbiz Việt.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                      <article class="art-right art-7">
+                          <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/giai-tri/hoai-linh-dang-dong-phim-ruc-rich-tro-lai-sau-on-ao-tu-thien-2021122162215641.html" title="Hoài Linh đang đóng phim, rục rịch trở lại sau ồn ào từ thiện"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/274/154/ttc/r/2021/12/21/hoai-linh-tro-lai-sau-on-ao-tu-thien-1640055911-16x9.jpeg" alt="Hoài Linh đang đóng phim, rục rịch trở lại sau ồn ào từ thiện"></a></div>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h4><a href="/giai-tri/hoai-linh-dang-dong-phim-ruc-rich-tro-lai-sau-on-ao-tu-thien-2021122162215641.html" title="Hoài Linh đang đóng phim, rục rịch trở lại sau ồn ào từ thiện"> Hoài Linh đang đóng phim, rục rịch trở lại sau ồn ào từ thiện </a></h4>
+                              <p>Bức ảnh Hoài Linh chụp chung với Ngân Quỳnh và diễn viên trẻ Võ Đăng Khoa được cho là hình ảnh trên phim trường một bộ phim mới khiến dân mạng xôn xao bàn luận.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                      <article class="art-right art-7">
+                          <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/giai-tri/hua-van-cuong-tran-cam-hong-di-dien-quan-bar-kiem-tien-2021122168338415.html" title="'Hứa Văn Cường' Trần Cẩm Hồng đi diễn quán bar kiếm tiền"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/274/154/ttc/r/2021/12/21/tran-cam-hong-1640097531-16x9.jpeg" alt="'Hứa Văn Cường' Trần Cẩm Hồng đi diễn quán bar kiếm tiền"></a></div>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h4><a href="/giai-tri/hua-van-cuong-tran-cam-hong-di-dien-quan-bar-kiem-tien-2021122168338415.html" title="'Hứa Văn Cường' Trần Cẩm Hồng đi diễn quán bar kiếm tiền"> 'Hứa Văn Cường' Trần Cẩm Hồng đi diễn quán bar kiếm tiền </a></h4>
+                              <p>Từng là một sao nam đình đám của xứ Hương Cảng, giờ đây ngôi sao phim Bến Thượng Hải - Trần Cẩm Hồng chọn con đường chạy show nhỏ lẻ để kiếm tiền trang trải cuộc sống.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                      <article class="art-right art-7">
+                          <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/giai-tri/netizen-che-kich-ban-bac-dau-cong-ly-vang-mat-o-tao-quan-2022-2021122191015396.html" title="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/274/154/ttc/r/2021/12/22/bac-dau-cong-ly-vang-mat-2-1640112386-16x9.jpeg" alt="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022"></a></div>
+                          <div class="des">
+                              <ul class="bar"></ul>
+                              <h4><a href="/giai-tri/netizen-che-kich-ban-bac-dau-cong-ly-vang-mat-o-tao-quan-2022-2021122191015396.html" title="Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022"> Netizen chế kịch bản Bắc Đầu Công Lý vắng mặt ở Táo quân 2022 </a></h4>
+                              <p>Vận dụng kiến thức từ đại dịch, netizen nhau đưa ra những lý do rất hợp thời để lí giải cho sự vắng mặt của 'Bắc Đẩu' Công Lý ở 'buổi chầu cuối năm' của Táo quân 2022.</p>
+                          </div>
+                      </article><span class="border-1"></span>
+                  </div>
+              </section>
+              <section class="section page-purple">
+                  <div class="title title-icon">
+                      <div class="container">
+                          <h2 class="pink"><a href="/suc-khoe" title="Sức Khỏe"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/suckhoe.png" alt="Sức Khỏe"><span>Sức Khỏe</span></a></h2>
+                      </div>
+                  </div>
+                  <div class="owl-carousel owl-carousel-3 owl-theme">
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/nan-xuong-gon-mat-bang-tay-vui-tay-gang-ma-he-luy-ke-khong-het-2021111245711315.html" title="Nắn xương gọn mặt bằng tay, vui tày gang mà hệ lụy kể không hết"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/11/12/01-1636693412-15x22.jpg" alt="Nắn xương gọn mặt bằng tay, vui tày gang mà hệ lụy kể không hết"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/nan-xuong-gon-mat-bang-tay-vui-tay-gang-ma-he-luy-ke-khong-het-2021111245711315.html" title="Nắn xương gọn mặt bằng tay, vui tày gang mà hệ lụy kể không hết">Nắn xương gọn mặt bằng tay, vui tày gang mà hệ lụy kể không hết</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/kich-thich-nao-sau-de-dieu-tri-benh-parkinson-2021121885615311.html" title="Kích thích não sâu để điều trị bệnh Parkinson"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/18/01-1639815374-15x22.jpg" alt="Kích thích não sâu để điều trị bệnh Parkinson"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/kich-thich-nao-sau-de-dieu-tri-benh-parkinson-2021121885615311.html" title="Kích thích não sâu để điều trị bệnh Parkinson">Kích thích não sâu để điều trị bệnh Parkinson</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/lam-chuyen-cai-mui-2021121551615963.html" title="Lắm chuyện cái mũi..."><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/15/02-1639543435-15x22.jpg" alt="Lắm chuyện cái mũi..."></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/lam-chuyen-cai-mui-2021121551615963.html" title="Lắm chuyện cái mũi...">Lắm chuyện cái mũi...</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/covid19-tu-bien-mat-hay-khong-bang-hen-2021121543520715.html" title="Covid-19 tự biến mất, hay không bằng hên?"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/15/01-1639542604-15x22.jpg" alt="Covid-19 tự biến mất, hay không bằng hên?"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/covid19-tu-bien-mat-hay-khong-bang-hen-2021121543520715.html" title="Covid-19 tự biến mất, hay không bằng hên?">Covid-19 tự biến mất, hay không bằng hên?</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/chi-phi-dieu-tri-nguoi-mac-benh-mau-kho-dong-la-10-trieu-dongngay-2021121642993915.html" title="Chi phí điều trị người mắc bệnh máu khó đông là 10 triệu đồng/ngày"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/16/01-1639633076-15x22.jpg" alt="Chi phí điều trị người mắc bệnh máu khó đông là 10 triệu đồng/ngày"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/chi-phi-dieu-tri-nguoi-mac-benh-mau-kho-dong-la-10-trieu-dongngay-2021121642993915.html" title="Chi phí điều trị người mắc bệnh máu khó đông là 10 triệu đồng/ngày">Chi phí điều trị người mắc bệnh máu khó đông là 10 triệu đồng/ngày</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/dieu-gi-se-xay-ra-neu-chung-ta-khong-co-mong-tay-mong-chan-2021121579915269.html" title="Điều gì sẽ xảy ra nếu chúng ta không có móng tay, móng chân?"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/15/image001-1639540736-15x22.jpg" alt="Điều gì sẽ xảy ra nếu chúng ta không có móng tay, móng chân?"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/dieu-gi-se-xay-ra-neu-chung-ta-khong-co-mong-tay-mong-chan-2021121579915269.html" title="Điều gì sẽ xảy ra nếu chúng ta không có móng tay, móng chân?">Điều gì sẽ xảy ra nếu chúng ta không có móng tay, móng chân?</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/cap-gio-song-ve-dem-thu-pham-gay-mat-ngu-khong-ngo-2021112512679815.html" title="Cặp giò 'sống về đêm', thủ phạm gây mất ngủ không ngờ"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/11/25/02-1637840236-15x22.jpg" alt="Cặp giò 'sống về đêm', thủ phạm gây mất ngủ không ngờ"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/cap-gio-song-ve-dem-thu-pham-gay-mat-ngu-khong-ngo-2021112512679815.html" title="Cặp giò 'sống về đêm', thủ phạm gây mất ngủ không ngờ">Cặp giò 'sống về đêm', thủ phạm gây mất ngủ không ngờ</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/2-bai-thuoc-de-lam-chua-toc-rung-toc-bac-som-2021120660127815.html" title="2 bài thuốc dễ làm, chữa tóc rụng, tóc bạc sớm"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/06/01-1638764514-15x22.jpg" alt="2 bài thuốc dễ làm, chữa tóc rụng, tóc bạc sớm"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/2-bai-thuoc-de-lam-chua-toc-rung-toc-bac-som-2021120660127815.html" title="2 bài thuốc dễ làm, chữa tóc rụng, tóc bạc sớm">2 bài thuốc dễ làm, chữa tóc rụng, tóc bạc sớm</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/long-moc-nguoc-bai-hoc-canh-giac-ung-thu-hac-to-2021121119542115.html" title="Lông mọc ngược, bài học cảnh giác ung thư hắc tố"><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/11/01-1639202540-15x22.jpg" alt="Lông mọc ngược, bài học cảnh giác ung thư hắc tố"></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/long-moc-nguoc-bai-hoc-canh-giac-ung-thu-hac-to-2021121119542115.html" title="Lông mọc ngược, bài học cảnh giác ung thư hắc tố">Lông mọc ngược, bài học cảnh giác ung thư hắc tố</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                      <div class="item">
+                          <article class="art-4 art-over"><a class="thumb" href="/suc-khoe/trai-tim-tan-vo-khi-dau-long-co-the-toi-cong-chuyen-neu-2021121039072151.html" title="'Trái tim tan vỡ' khi đau lòng có thể... tới công chuyện, nếu..."><img height="256" class="lazyload" src="https://cuoifly.tuoitre.vn/193/241/ttc/r/2021/12/10/01-1639109071-15x22.jpg" alt="'Trái tim tan vỡ' khi đau lòng có thể... tới công chuyện, nếu..."></a>
+                              <div class="des">
+                                  <ul class="bar"></ul>
+                                  <h4><a href="/suc-khoe/trai-tim-tan-vo-khi-dau-long-co-the-toi-cong-chuyen-neu-2021121039072151.html" title="'Trái tim tan vỡ' khi đau lòng có thể... tới công chuyện, nếu...">'Trái tim tan vỡ' khi đau lòng có thể... tới công chuyện, nếu...</a></h4>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </section>
+          </section>
+          <aside class="sidebar">
+              <div class="block-bar block-qc R1">
+                  <zone id="k1hb5nfb"></zone>
+                  <script>
+                      arfAsync.push("k1hb5nfb");
+                  </script>
+              </div>
+              <div class="block-bar block-qc R2">
+                  <zone id="k1hb6b63"></zone>
+                  <script>
+                      arfAsync.push("k1hb6b63");
+                  </script>
+              </div>
+              <div class="block-bar block-qc sticky-top R3">
+                  <zone id="k1hb6xlz"></zone>
+                  <script>
+                      arfAsync.push("k1hb6xlz");
+                  </script>
+              </div>
+          </aside>
+      </div>
+  </div>
+</section>
+<ul class="list-social">
+  <li><a target="_blank" href="https://www.facebook.com/tuoitrecuoi/" title="https://www.facebook.com/tuoitrecuoi/" rel="noopener"><i class="icon-facebook-1"></i></a></li>
+  <li><a target="_blank" href="https://www.instagram.com/tuoitrecuoi.official/" title="Tuổi Trẻ Cười" rel="noopener"><i class="icon-instagram-1"></i></a></li>
+  <li><a htarget="_blank" href="https://www.youtube.com/channel/UCuZFuykrlN9GUhobrTvP0Bg" title="Tuổi Trẻ Cười TV" rel="noopener"><i class="icon-youtube-1"></i></a></li>
+</ul>
+<div class="container mb-5">
+  <div class="row">
+      <div class="col-lg-8">
+          <section class="section">
+              <div class="title title-icon">
+                  <div>
+                      <h2 class="green"><a href="/doi-cuoi" title="Đời Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/doicuoi.png" alt="Đời Cười"><span>Đời Cười</span></a></h2>
+                  </div>
+              </div>
+              <article class="art-new-bh"><a class="thumb" href="/biem-hoa/top-10-ly-do-di-nhau-thoi-hau-dich-2021121115444815.html" title="Top 10 lý do đi nhậu thời hậu dịch"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/400/300/ttc/r/2021/12/11/top-10-ly-do-nhau-1639213909-26x17.jpg" alt="Top 10 lý do đi nhậu thời hậu dịch"></a>
+                  <div class="des">
+                      <h3><a href="/biem-hoa/top-10-ly-do-di-nhau-thoi-hau-dich-2021121115444815.html" title="Top 10 lý do đi nhậu thời hậu dịch">Top 10 lý do đi nhậu thời hậu dịch<i class="icon icon-photo"></i></a></h3>
+                      <p>Một trong những lý do đó là "Trải nghiệm xem CSGT có phạt vi phạm nồng độ cồn với khung giá như trước dịch hay không?"...</p>
+                      <ul class="list-s">
+                          <li>
+                              <article class="art-new-small"><a class="thumb" href="/biem-hoa/nghe-thuat-song-bot-nghiep-2021121077272153.html" title="Nghệ thuật sống bớt 'nghiệp'"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/10/biem-hoa-le-bich-song-bot-nghiep-a1-1639099067-1x1.jpg" alt="Nghệ thuật sống bớt 'nghiệp'"></a>
+                                  <div class="des">
+                                      <h5><a href="/biem-hoa/nghe-thuat-song-bot-nghiep-2021121077272153.html" title="Nghệ thuật sống bớt 'nghiệp'">Nghệ thuật sống bớt 'nghiệp'</a></h5>
+                                  </div>
+                              </article>
+                          </li>
+                          <li>
+                              <article class="art-new-small"><a class="thumb" href="/biem-hoa/thang-12-va-trach-nhiem-nang-ne-2021120494341215.html" title="Tháng 12 và trách nhiệm nặng nề"><img class="lazyload img-1x1" src="https://cuoifly.tuoitre.vn/30/30/ttc/r/2021/12/04/tranh-biem-hoa-thang-12-cuoi-nam-1638582302-1x1.jpg" alt="Tháng 12 và trách nhiệm nặng nề"></a>
+                                  <div class="des">
+                                      <h5><a href="/biem-hoa/thang-12-va-trach-nhiem-nang-ne-2021120494341215.html" title="Tháng 12 và trách nhiệm nặng nề">Tháng 12 và trách nhiệm nặng nề</a></h5>
+                                  </div>
+                              </article>
+                          </li>
+                      </ul>
+                  </div>
+              </article><span class="border-1"></span>
+              <article class="art-right art-7"><a class="thumb" href="/doi-cuoi/ai-khon-nhu-vo-thang-dau-2021092323515515.html" title="Ai khôn như vợ thằng Đậu?"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/273/206/ttc/r/2021/09/24/minh-hoa-vo-thang-dau-1632452320-26x17.jpg" alt="Ai khôn như vợ thằng Đậu?"></a>
+                  <div class="des">
+                      <h4><a href="/doi-cuoi/ai-khon-nhu-vo-thang-dau-2021092323515515.html" title="Ai khôn như vợ thằng Đậu?">Ai khôn như vợ thằng Đậu?</a></h4>
+                      <p>Thằng Đậu áng chừng cách ly một tháng là hết, chứ bị nhốt trong nhà hoài thì đói rả họng. Dè đâu cách ly kéo dài tới tận bốn, năm tháng.</p>
+                  </div>
+              </article>
+          </section>
+          <section class="section">
+              <div class="title title-icon">
+                  <div>
+                      <h2 class="dark-blue"><a href="/the-thao-cuoi" title="Thể Thao Cười"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/the-thao.png" alt="Thể Thao Cười"><span>Thể Thao Cười</span></a></h2>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6">
+                      <article class="art-sport-b">
+                          <div class="outer-thumb-style"><a class="thumb thumb-4x3" href="/the-thao-cuoi/anh-che-ronaldo-cong-lung-cuu-thay-solskjaer-va-man-utd-2021110364361915.html" title="Ảnh chế: Ronaldo 'còng lưng' cứu thầy Solskjaer và Man Utd"><img class="lazyload img-4x3" src="https://cuoifly.tuoitre.vn/540/304/ttc/r/2021/11/03/5-1635915316-16x9.jpg" style=""></a></div>
+                          <div class="des">
+                              <h3><a href="/the-thao-cuoi/anh-che-ronaldo-cong-lung-cuu-thay-solskjaer-va-man-utd-2021110364361915.html" title="Ảnh chế: Ronaldo 'còng lưng' cứu thầy Solskjaer và Man Utd"> Ảnh chế: Ronaldo 'còng lưng' cứu thầy Solskjaer và Man Utd</a></h3>
+                          </div>
+                      </article>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="scroll-custom scroll-273">
+                          <article class="art-sport-s">
+                              <h3><a href="/the-thao-cuoi/hai-thanh-nien-indonesia-chom-tien-tu-thien-de-lam-trum-trong-game-2021092940997154.html" title="Hai thanh niên Indonesia chôm tiền từ thiện để làm trùm trong game"> Hai thanh niên Indonesia chôm tiền từ thiện để làm trùm trong game</a></h3>
+                              <div class="d-flex">
+                                  <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/the-thao-cuoi/hai-thanh-nien-indonesia-chom-tien-tu-thien-de-lam-trum-trong-game-2021092940997154.html" title="Hai thanh niên Indonesia chôm tiền từ thiện để làm trùm trong game"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/350/197/ttc/r/2021/09/29/img0918-1551182054302272331187-tile-1632917184-16x9.jpg" style=""></a></div>
+                                  <p>Vụ việc xảy ra tại Medan (Indonesia) khiến cư dân...</p>
+                              </div>
+                          </article>
+                          <article class="art-sport-s">
+                              <h3><a href="/the-thao-cuoi/loat-tro-choi-an-theo-phim-squid-game-khien-nguoi-choi-gap-kho-2021092933915573.html" title="Loạt trò chơi ăn theo phim 'Squid game' khiến người chơi gặp khó"> Loạt trò chơi ăn theo phim 'Squid game' khiến người chơi gặp khó</a></h3>
+                              <div class="d-flex">
+                                  <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/the-thao-cuoi/loat-tro-choi-an-theo-phim-squid-game-khien-nguoi-choi-gap-kho-2021092933915573.html" title="Loạt trò chơi ăn theo phim 'Squid game' khiến người chơi gặp khó"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/350/197/ttc/r/2021/09/29/tro-choi-con-muc-1-tile-1632874825-16x9.jpg" style=""></a></div>
+                                  <p>Nhiều CĐV than trời vì độ khó của các trò chơi khô...</p>
+                              </div>
+                          </article>
+                          <article class="art-sport-s">
+                              <h3><a href="/the-thao-cuoi/anh-che-fc-canh-sat-vao-hang-o-bat-song-bay-ken-ken-2021092880223155.html" title="Ảnh chế: FC Cảnh sát vào hang ổ bắt sống bầy kền kền"> Ảnh chế: FC Cảnh sát vào hang ổ bắt sống bầy kền kền</a></h3>
+                              <div class="d-flex">
+                                  <div class="outer-thumb-style"><a class="thumb thumb-16x9" href="/the-thao-cuoi/anh-che-fc-canh-sat-vao-hang-o-bat-song-bay-ken-ken-2021092880223155.html" title="Ảnh chế: FC Cảnh sát vào hang ổ bắt sống bầy kền kền"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/350/197/ttc/r/2021/09/29/243454836-4626031720846580-8609044255657693623-n-tile-1632872874-16x9.png" style=""></a></div>
+                                  <p>Sheriff FC - CLB có biệt danh "Cảnh sát" đã tạo nê...</p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+      <div class="col-lg-4">
+          <section class="section sticky-top">
+              <div class="title title-icon">
+                  <div>
+                      <h2 class="purple"><a href="/zoi-tre" title="Zới Trẻ"><img src="https://cdncuoi.tuoitre.vn/assets/d4887838/img/icon/no-title/gioitre.png" alt="Zới Trẻ"><span>Zới Trẻ</span></a></h2>
+                  </div>
+              </div>
+              <article class="art-3"><a class="thumb thumb-380x265" href="/zoi-tre/tiem-banh-mi-noi-tieng-nhat-sai-gon-ra-mat-phien-ban-tra-xanh-2021122133412415.html" title="Tiệm bánh mì nổi tiếng nhất Sài Gòn ra mắt phiên bản 'trà xanh'"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/350/197/ttc/r/2021/12/21/banh-mi-tra-xanh-01-1640079349-16x9.jpeg" alt="Tiệm bánh mì nổi tiếng nhất Sài Gòn ra mắt phiên bản 'trà xanh'"></a>
+                  <div class="des">
+                      <ul class="bar"></ul>
+                      <h3><a href="/zoi-tre/tiem-banh-mi-noi-tieng-nhat-sai-gon-ra-mat-phien-ban-tra-xanh-2021122133412415.html" title="Tiệm bánh mì nổi tiếng nhất Sài Gòn ra mắt phiên bản 'trà xanh'"> Tiệm bánh mì nổi tiếng nhất Sài Gòn ra mắt phiên bản 'trà xanh'</a></h3>
+                      <p>Muốn nối dài drama đang cực nóng quanh ổ bánh mì, tiệm bánh mì nổi tiếng nhất Sài Gòn tung ra phiên bản mới mang tên 'trà xanh'?</p>
+                  </div>
+              </article><span class="border-3"></span>
+              <article class="art-right art-9"><a class="thumb thumb-115x85" href="/zoi-tre/xon-xao-co-dau-hau-giang-duoc-tang-qua-cuoi-tri-gia-30-ti-dong-2021122174127615.html" title="Xôn xao cô dâu Hậu Giang được tặng 'quà cưới trị giá 30 tỉ đồng'"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/150/84/ttc/r/2021/12/21/co-dau-duoc-tang-30-ti-01-1640076154-16x9.jpeg" alt="Xôn xao cô dâu Hậu Giang được tặng 'quà cưới trị giá 30 tỉ đồng'"></a>
+                  <div class="des">
+                      <ul class="bar"></ul>
+                      <h4><a href="/zoi-tre/xon-xao-co-dau-hau-giang-duoc-tang-qua-cuoi-tri-gia-30-ti-dong-2021122174127615.html" title="Xôn xao cô dâu Hậu Giang được tặng 'quà cưới trị giá 30 tỉ đồng'"> Xôn xao cô dâu Hậu Giang được tặng 'quà cưới trị giá 30 tỉ đồng' <i class="icon icon-mayquay"></i></a></h4>
+                  </div>
+              </article>
+              <article class="art-right art-9"><a class="thumb thumb-115x85" href="/zoi-tre/hai-ong-gia-noel-dinh-cua-chop-chat-choi-thoi-cong-nghe-len-ngoi-2021122189615207.html" title="Hai ông già Noel 'đỉnh của chóp', chất chơi thời công nghệ lên ngôi"><img class="lazyload img-16x9" src="https://cuoifly.tuoitre.vn/150/84/ttc/r/2021/12/21/ong-gia-noel-cover-1640071026-16x9.jpg" alt="Hai ông già Noel 'đỉnh của chóp', chất chơi thời công nghệ lên ngôi"></a>
+                  <div class="des">
+                      <ul class="bar"></ul>
+                      <h4><a href="/zoi-tre/hai-ong-gia-noel-dinh-cua-chop-chat-choi-thoi-cong-nghe-len-ngoi-2021122189615207.html" title="Hai ông già Noel 'đỉnh của chóp', chất chơi thời công nghệ lên ngôi"> Hai ông già Noel 'đỉnh của chóp', chất chơi thời công nghệ lên ngôi <i class="icon icon-mayquay"></i></a></h4>
+                  </div>
+              </article>
+          </section>
+          <div class="Right_4_300x251">
+              <zone id="k1hb4e7r"></zone>
+              <script>
+                  arfAsync.push("k1hb4e7r");
+              </script>
+          </div>
+      </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-7">
+              <div class="outer-logo">
+                  <div class="wrapper-logo"><a class="logo-footer" href="/" title="TUỔI TRẺ CƯỜI ONLINE"><img src="https://cdncuoi.tuoitre.vn/ttc/sources/img/logo-footer.svg" alt="TUỔI TRẺ CƯỜI ONLINE"></a>
+                      <div class="inner-logo">
+                          <h5>TUỔI TRẺ CƯỜI ONLINE</h5>
+                          <ul class="list-logo">
+                              <li><a target="_blank" href="https://tuoitre.vn/" title="Tin tức, tin nóng, đọc báo điện tử - Tuổi Trẻ Online"><img src="https://cdncuoi.tuoitre.vn/ttc/sources/img/icon/icon-tto.svg" alt="Tin tức, tin nóng, đọc báo điện tử - Tuổi Trẻ Online" rel="noopener"></a></li>
+                              <li><a target="_blank" href="https://cuoituan.tuoitre.vn/" title="Báo Chí - Tạp Chí - Đọc Báo - Tuổi Trẻ Cuối Tuần - TTO"><img src="https://cdncuoi.tuoitre.vn/ttc/sources/img/icon/icon-ttct.svg" alt="Báo Chí - Tạp Chí - Đọc Báo - Tuổi Trẻ Cuối Tuần - TTO" rel="noopener"></a></li>
+                              <li><a target="_blank" href="https://tv.tuoitre.vn/" title="Video tin tức, video tin nóng - Tuổi Trẻ Video Online"><img src="https://cdncuoi.tuoitre.vn/ttc/sources/img/icon/icon-tttivi.svg" alt="Video tin tức, video tin nóng - Tuổi Trẻ Video Online" rel="noopener"></a></li>
+                              <li><a target="_blank" href="https://tuoitrenews.vn/" title="Tuoitrenews news"><img src="https://cdncuoi.tuoitre.vn/ttc/r/2020/12/28/logo-footer-1609129716.png" alt="Tuoitrenews news" style="height: 16px; margin-top: 2px;" rel="noopener"></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <p class="copyright">Số 60A, Hoàng Văn Thụ, Phường 9, Quận Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam</p>
+              </div>
+          </div>
+          <div class="col-lg-5 text-right"><span class="lbl-social">Kết nối với chúng tôi tại</span>
+              <ul class="footer-social">
+                  <li><a class="button" target="_blank" href="https://www.facebook.com/tuoitrecuoi/" title="https://www.facebook.com/tuoitrecuoi/" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a class="button" target="_blank" href="https://www.youtube.com/channel/UCuZFuykrlN9GUhobrTvP0Bg" title="Tuổi Trẻ Cười TV" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+                  <li><a class="button" target="_blank" href="https://www.instagram.com/tuoitrecuoi.official/" title="Tuổi Trẻ Cười" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+              </ul><a class="button btn-price-ads" href="#" title="Bảng giá quảng cáo">Bảng giá quảng cáo</a>
+          </div>
+      </div><span class="border-1"></span>
+      <div class="row">
+          <div class="col-lg-3">
+              <dl>
+                  <dt>LIÊN HỆ QUẢNG CÁO</dt>
+                  <dd><a href="tel:0963020919" title="0963.0209.19"><i class="icon icon-telephone"></i><strong>0963.0209.19</strong></a></dd>
+                  <dd><a href="mailto:sales@tuoitre.com.vn" title="sales.cuoi@tuoitre.com.vn"><i class="icon icon-envelope"></i> sales.cuoi@tuoitre.com.vn</a></dd>
+              </dl>
+          </div>
+          <div class="col-lg-3">
+              <dl>
+                  <dt>HỢP TÁC NỘI DUNG</dt>
+                  <dd><a href="mailto:cuoi@tuoitre.com.vn" title="cuoi@tuoitre.com.vn"><i class="icon icon-envelope"></i> cuoi@tuoitre.com.vn</a></dd>
+              </dl>
+          </div>
+          <div class="col-lg-3">
+              <dl>
+                  <dt>LIÊN HỆ</dt>
+                  <dd><a href="mailto:tuoitrecuoi@tuoitre.com.vn" title="tuoitrecuoi@tuoitre.com.vn"><i class="icon icon-envelope"></i> tuoitrecuoi@tuoitre.com.vn</a></dd>
+              </dl>
+          </div>
+          <div class="col-lg-3">
+              <dl>
+                  <dt>ĐƯỜNG DÂY NÓNG</dt>
+                  <dd><a href="tel:096302092019" title="0198.033.133"><i class="icon icon-telephone"></i><strong> 0198.033.133</strong></a></dd>
+                  <dd><a href="tel:(84.28) 38.440.538" title="38.440.538"><i class="icon icon-telephone-s"></i><strong>(84.28) 38.440.538</strong></a></dd>
+              </dl>
+          </div>
+      </div><span class="border-1"></span>
+      <div class="bottom-footer">
+          <p class="copyright">© Copyright 2019 TuoiTre Online, All rights reserved <br> ® Tuổi Trẻ Online giữ bản quyền nội dung trên website này</p>
+      </div>
+      <div id="ad300x250_baloon">
+          <zone id="k8in2apm"></zone>
+          <script>
+              arfAsync.push("k8in2apm")
+          </script>
+      </div>
+  </div>
+</footer><a class="button btn-more-than" href="javascript:;" title="Đầu trang"></a>
+<div class="modal modal-full fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <form id="search-frm" class="frm-search" action="/tim-kiem" method="GET"><input class="txt-search" id="txtSearch" type="text" name="q" value="" placeholder="Nhập thông tin tìm kiếm">
+                  <div class="outer-btn"><button type="submit" id="btn_search" class="btn-search"><i class="icon icon-search-s"></i> Tìm kiếm</button><button class="btn-close-search" data-dismiss="modal" aria-label="Close"><i class="icon icon-close-s"></i> Đóng</button></div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="reportModal"><input type="hidden" name="hidCCommentId" value=""><input type="hidden" name="hidCObjectId" value="">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content"><button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <div class="modal-body">
+              <h3 class="title-modal">Báo vi phạm</h3>
+              <form class="frm-general">
+                  <div class="form-group"><label>Chọn lý do vi phạm :</label><select class="form-control" id="reason">
+                          <option value="Xúc phạm, gây hại người khác">Xúc phạm, gây hại người khác</option>
+                          <option value="Lạc đề">Lạc đề</option>
+                          <option value="Vi phạm pháp luật">Vi phạm pháp luật</option>
+                          <option value="Vi phạm đạo đức, thuần phong mỹ tục">Vi phạm đạo đức, thuần phong mỹ tục</option>
+                          <option value="Tố cáo sai sự thật">Tố cáo sai sự thật</option>
+                          <option value="Vi phạm bản quyền">Vi phạm bản quyền</option>
+                          <option value="Để lộ thông tin cá nhân">Để lộ thông tin cá nhân</option>
+                          <option value="Spam, rác">Spam, rác</option>
+                          <option value="0">Lý do khác</option>
+                      </select></div>
+                  <div class="form-group box-other-reason" style="display: none"><label>Ý kiến :</label><textarea class="form-control" placeholder="Nội dung phản hồi khác"></textarea></div>
+                  <div class="form-group"><label>Địa chỉ email của bạn:</label><input class="form-control" type="email" name="reporter_email" placeholder="Email"><span class="error" style="display: none">Vui lòng nhập email của bạn</span></div>
+                  <div class="outer-btn-social text-center"><a class="btn-report" href="javascript:;">Gửi</a></div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="animate-success"><img class="animate-1" src="https://cdncuoi.tuoitre.vn/ttc/source/img/mr_hai_cu_neo-1.png" alt="ttc"><img class="animate-2" src="https://cdncuoi.tuoitre.vn/ttc/source/img/mr_hai_cu_neo-2.png" alt="ttc"></div>
+      </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="sendokCm" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="outer-btn-social text-center" style="padding: 50px 0 10px">
+                  <p class="title-modal">Cảm ơn bạn đã gửi bình luận</p><a class="logo" href="/"><img style="width: 50%" src="https://cdncuoi.tuoitre.vn/ttc/source/img/logo-pc.png" alt=""></a><br><label id="countdown" style="padding: 30px 0 10px;">Hộp thoại sẽ tự động đóng sau 10 giây</label><br><button class="btn--close-comment" data-dismiss="modal" aria-label="Close">Đóng</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="modal modal-comment fade" id="commentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="popup-title"><a class="off_popup" data-dismiss="modal" aria-label="Close">X</a>
+                  <h4 class="popup-title" style="margin-top: 10px;"></h4>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8">
+                      <div class="fck">
+                          <div class="modal-img">
+                              <div class="modal-center">
+                                  <div class="slider slick-modal"></div>
+                                  <div class="slider slick-thumb-modal"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4">
+                      <div class="box-shadow">
+                          <div class="detail-comment">
+                              <div class="fliter-comment"><span><select>
+                                          <option>Mới nhất</option>
+                                      </select></span></div>
+                              <ul class="wrapper-comment"></ul>
+                              <div id="cmt_write"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
